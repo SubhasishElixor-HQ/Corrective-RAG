@@ -1,0 +1,11 @@
+﻿ELIXOR MSME Business Operating System
+
+The system helps small businesses understand sales, customers, expenses, and inventory.
+
+A business owner can review sales trends and identify changes in repeat customer purchases.
+
+Inventory monitoring helps identify products with low stock.
+
+AI recommendations should be reviewed by an authorized person before important business actions are executed.
+
+The system should maintain audit records of approved actions and their results.

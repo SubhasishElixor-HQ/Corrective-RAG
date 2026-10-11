@@ -1,0 +1,25 @@
+[project]
+name = "corrective-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SubhasishElixor-HQ", email = "subhasishshoo4747@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.15.1",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.1",
+    "langchain-openai>=1.7.0",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.14",
+    "pypdf>=6.20.0",
+]
+
+[project.scripts]
+corrective-rag = "corrective_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
